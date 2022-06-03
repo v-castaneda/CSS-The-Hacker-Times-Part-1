@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
+body {
+    background-color: #eee;
+}
+
 /* Article Title Formatting */
 .date {
     font-family: Roboto Slab;
@@ -26,6 +30,7 @@ main, .more-articles {
     border: 1px solid #eee;
     border-radius: 10px;
     background-color: #FFFFFF;
+    padding: 25px;
 }
 
 ul {
