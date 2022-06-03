@@ -31,6 +31,7 @@ main, .more-articles {
     border-radius: 10px;
     background-color: #FFFFFF;
     padding: 25px;
+    box-shadow: 10px 25px 10px #ddd;
 }
 
 ul {
