@@ -11,13 +11,18 @@ body {
 }
 
 header > h1 {
-    font-family: Roboto Slab;
+    font-family: Source Sans Pro;
     text-align: center;
 } 
 
-/* Header formatting */
+/* Navigation formatting */
 nav {
-    font-family: Abril Fatface;
+    font-family: Source Sans Pro;
+    border-style: solid none;
+    border-color: #eee;
+    border-width: 1px;
+    font-size: 10px;
+    text-align: center;
 }
 
 /* Body Formatting */
@@ -32,6 +37,7 @@ main, .more-articles {
     background-color: #FFFFFF;
     padding: 25px;
     box-shadow: 10px 25px 10px #ddd;
+    margin: 0 auto;
 }
 
 ul {
@@ -42,5 +48,16 @@ ul {
 
 li {
     display: inline-block;
-    padding: 3px;
+    padding: 10px;
+}
+
+main > img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.more-articles {
+    display: inline-block;
+    width: 50%;
 }
