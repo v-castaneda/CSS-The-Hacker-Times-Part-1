@@ -58,6 +58,6 @@ main > img {
 }
 
 .more-articles {
-    display: inline-block;
-    width: 50%;
+    display: grid;
+    grid-template-columns: 350px 350px;
 }
